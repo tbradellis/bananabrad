@@ -1,0 +1,17 @@
+<web-app>
+
+<servlet>
+
+<servlet-name>HelloWorld</servlet-name>
+<servlet-class>com.banana.java.HelloWorld</servlet-class>
+
+</servlet>
+
+<servlet-mapping>
+
+<servlet-name>HelloWorld</servlet-name>
+<url-pattern>/helloworld</url-pattern>
+
+</servlet-mapping>
+
+</web-app>
